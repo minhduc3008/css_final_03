@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-top {
+    background: #000;
+    height: 40px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container {
+    
+}
+
+.language {
+    width: 25%;
+    display: flex;
+}
+
+.language li {
+    font-size: 20px;
+
+}
+
+li .dropdown-show {
+    position: relative;
+}
+
+.dropdown-show ul {
+    display: none;
+    position:absolute;
+    padding: 5px;
+    border-top: 2px solid #fe5f38;
+    background-color: #fff;
+}
+
+.dropdown-show ul li {
+    color: #000;
+}
+
+.dropdown-show img {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.dropdown-show ul li:hover {
+    background-color: #fe5f38;
+}
+
+.social-logo  {
+    width: 20%;
+    display: flex;
+}
+
+.social-logo ul  {
+    display: flex;
+}
+
+.social-logo ul li {
+    padding: 5px;
+    color: #fff;
+    border-left: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.social-logo i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-logo i:hover {
+    color: #fe5f38;
+}
+
+.link {
+    
+}
+
+.link ul {
+    display: flex;
+}
+
+.link ul li {
+    padding: 5px;
+    border-left: 1px solid #ccc;
+}
+
+.link a {
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.link a:hover {
+    color: #fe5f38;
+    
+}
