@@ -441,3 +441,105 @@ a {
 #banner .banner-right {
     width: 25%;
 }
+
+#sale-trend {
+    margin-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 30px ;
+}
+
+.text-center h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-center small {
+    margin-top: 15px;
+    padding: 10px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+#sale-trend  .container .product {
+    position: relative;
+    width: 33%;
+    margin: 10px;
+}
+
+#sale-trend  .container .product > span {
+    background-color: #fe5f38;
+    padding: 5px;
+}
+
+.container .product span.lable-new {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.container .product span.lable-discount {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.shop-btn {
+    position: absolute;
+    bottom: 90px;
+    left: 35%;
+    background-color: #fff;
+    text-align: center;
+    height: 30px;
+}
+
+.shop-btn ul {
+    display: flex;
+}
+
+.shop-btn ul li a {
+    padding: 5px;
+    color: #000;
+    margin: 5px;
+    line-height: 30px;
+}
+
+.shop-btn ul li a:hover {
+    color: #fe5f38;
+}
+
+.product .text-content h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.product .text-content .old-price {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.product .text-content .new-price {
+    color: #fe5f38;
+    font-weight: bold;
+}
+
+#best-seller ul {
+    display: flex;
+    justify-content: center;
+}
+
+#best-seller ul li a {
+    border: 1px solid #000;
+    margin: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#best-seller ul li:hover a {
+    border: 1px solid #fe5f38;
+    color: #FE5F38  ;
+}
