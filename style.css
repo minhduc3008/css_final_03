@@ -422,22 +422,22 @@ a {
     width: 100%;
 }
 
-#banner > .container {
+#banner {
     display: flex;
 }
 
-#banner > .container img {
+#banner img {
     width: 100%;
 }
 
-#banner > .container .banner-left {
+#banner  .banner-left {
     width: 25%;
 }
 
-#banner > .container .banner-center {
+#banner .banner-center {
     width: 50%;
 }
 
-#banner > .container .banner-right {
+#banner .banner-right {
     width: 25%;
 }
