@@ -1,4 +1,98 @@
-* {
+/* Slider */
+
+#slider {
+    margin-top: 30px;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider .slider-content {
+    position: relative;
+}
+
+.slider-content .title {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.title .title-1 {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    margin-bottom: 23px;
+}
+
+.title .title-2 {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+.title .title-3 {
+    list-style: none;
+    display: flex;
+}
+
+.title .title-3 li {
+    padding: 10px;
+    margin: 5px;
+    border-right: 1px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.title .title-3 li:last-child {
+    border: none;
+}
+
+.title .shop-bnt {
+    width: 180px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.title .shop-bnt:hover {
+    background-color: #FE5F38;
+}
+
+/* Banner */
+
+#banner {
+    width: 100%;
+
+}
+
+#banner > .container {
+    display: flex;
+    
+
+}
+
+#banner > .container img {
+    width: 100%;
+}
+
+#banner > .container .banner-left {
+    width: 25%;
+}
+
+#banner > .container .banner-center {
+    width: 50%;
+}
+
+#banner > .container .banner-right {
+    width: 25%;
+}* {
     margin: 0;
     padding: 0;
 }
@@ -296,6 +390,7 @@ a {
 .sub-menu {
     display: flex;
     
+
 }
 
 .page  .men >.sub-menu > li > a {
