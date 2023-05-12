@@ -1,98 +1,4 @@
-/* Slider */
-
-#slider {
-    margin-top: 30px;
-}
-
-#slider img {
-    width: 100%;
-}
-
-#slider .slider-content {
-    position: relative;
-}
-
-.slider-content .title {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
-
-.title .title-1 {
-    color: #fff;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: 100;
-    margin-bottom: 23px;
-}
-
-.title .title-2 {
-    color: #fff;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    margin: 0;
-}
-
-.title .title-3 {
-    list-style: none;
-    display: flex;
-}
-
-.title .title-3 li {
-    padding: 10px;
-    margin: 5px;
-    border-right: 1px solid #fff;
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-}
-
-.title .title-3 li:last-child {
-    border: none;
-}
-
-.title .shop-bnt {
-    width: 180px;
-    height: 60px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.title .shop-bnt:hover {
-    background-color: #FE5F38;
-}
-
-/* Banner */
-
-#banner {
-    width: 100%;
-
-}
-
-#banner > .container {
-    display: flex;
-    
-
-}
-
-#banner > .container img {
-    width: 100%;
-}
-
-#banner > .container .banner-left {
-    width: 25%;
-}
-
-#banner > .container .banner-center {
-    width: 50%;
-}
-
-#banner > .container .banner-right {
-    width: 25%;
-}* {
+* {
     margin: 0;
     padding: 0;
 }
@@ -441,4 +347,470 @@ a {
     left: 180px;
     border-top: 1px solid #fe5f38;
     display: none;
+}
+
+/* Slider */
+
+#slider {
+    margin-top: 30px;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider .slider-content {
+    position: relative;
+}
+
+.slider-content .title {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.title .title-1 {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    margin-bottom: 23px;
+}
+
+.title .title-2 {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+.title .title-3 {
+    list-style: none;
+    display: flex;
+}
+
+.title .title-3 li {
+    padding: 10px;
+    margin: 5px;
+    border-right: 1px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.title .title-3 li:last-child {
+    border: none;
+}
+
+.title .shop-bnt {
+    width: 180px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.title .shop-bnt:hover {
+    background-color: #FE5F38;
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner .content {
+    width: 33%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner  .banner-left {
+    width: 25%;
+}
+
+.banner .banner-center {
+    width: 50%;
+}
+
+.banner .banner-right {
+    width: 25%;
+}
+
+#sale-trend {
+    margin-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 30px ;
+}
+
+.text-center h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-center small {
+    margin-top: 15px;
+    padding: 10px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+ .container .product {
+    position: relative;
+    width: 33%;
+    margin: 10px;
+}
+
+.container .product > span {
+    background-color: #fe5f38;
+    padding: 5px;
+}
+
+.container .product span.lable-new {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.container .product span.lable-discount {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.shop-btn {
+    position: absolute;
+    bottom: 90px;
+    left: 35%;
+    background-color: #fff;
+    text-align: center;
+    height: 30px;
+}
+
+.shop-btn ul {
+    display: flex;
+}
+
+.shop-btn ul li a {
+    padding: 5px;
+    color: #000;
+    margin: 5px;
+    line-height: 30px;
+}
+
+.shop-btn ul li a:hover {
+    color: #fe5f38;
+}
+
+.product .text-content h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.product .text-content .old-price {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.product .text-content .new-price {
+    color: #fe5f38;
+    font-weight: bold;
+}
+
+#best-seller ul {
+    display: flex;
+    justify-content: center;
+}
+
+#best-seller nav ul li a {
+    border: 1px solid #000;
+    margin: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+#best-seller nav ul li:hover a {
+    border: 1px solid #fe5f38;
+    color: #FE5F38  ;
+}
+
+#best-seller .container .left {
+    width: 50%;
+}
+
+.left .left-top {
+    display: flex;
+}
+
+.left .left-top .product {
+    width: 50%;
+}
+
+.left-top .product img {
+    width: 100%;
+}
+
+.left .left-bottom .product {
+    width: 100%;
+}
+
+.left-bottom .product img {
+    width: 100%;
+}
+
+#best-seller .container .right {
+    width: 50%;
+}
+
+.right .right-top .product {
+    width: 100%;
+}
+
+.right-top .product img {
+    width: 100%;
+}
+
+.right .right-bottom {
+    display: flex;
+}
+
+.right .right-bottom .product {
+    width: 50%;
+}
+
+.right-bottom .product img {
+    width: 100%;
+}
+
+#brands {
+    display: flex;
+}
+
+#brands .content-2 {
+    width: 20%;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#brands .content-2 img {
+    width: 100%;
+}
+
+#blog {
+    padding: 60px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+#blog .blog-left {
+    width: 50%;
+}
+
+#blog .blog-left h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#blog .blog-left .name {
+    text-transform: uppercase;
+    color: #fe5f38;
+    margin: 20px 0px;
+}
+
+#blog .blog-left .des {
+    line-height: 25px;
+}
+
+#blog .blog-left .gmail {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+#blog .blog-right {
+    width: 50%;
+}
+
+#blog .blog-right h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#blog .blog-right .blog-img-content {
+    display: flex;
+}
+
+#blog .blog-right .blog-img-content img {
+    width: 100%;
+}
+
+.blog-right .blog-img-content .left {
+    width: calc((100% /2) - 40px);
+    margin: 20px;
+}
+
+.blog-img-content .left span {
+    display: block;
+    margin-top: 20px;
+}
+
+.blog-right .blog-img-content .right {
+    width: calc((100% /2) - 40px);
+    margin: 20px;
+}
+
+.blog-img-content .right span {
+    display: block;
+    margin-top: 20px;
+}
+
+#featured-product {
+    padding: 60px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+#featured-product .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#featured-product .pro-list {
+    width: calc((100% / 3) - 30px);
+    margin: 15px 0px;
+}
+
+#featured-product .pro-list .pro-item {
+    width: 100%;
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: 1px solid #ccc ;
+}
+
+#featured-product .pro-list .pro-item:last-child {
+    border: none;
+}
+
+.pro-list .pro-item img {
+    width: 20%;
+}
+
+.pro-item .pro-content {
+    margin-left: 15px;
+}
+
+.pro-item .pro-content a {
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.pro-item .pro-content a:hover {
+    color: #fe5f38;
+}
+
+.pro-item .pro-content span.old-price {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.pro-item .pro-content span.new-price {
+    color: #fe5f38;
+    font-weight: bold;
+}
+
+#footer .footer-logo {
+    padding: 60px;
+}
+
+#footer .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-mid {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+#footer .input {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    border: 1px solid #ccc;
+    margin-left: 120px;
+}
+
+#footer .input p {
+    width: 25%;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer .input input {
+    width: 50%;
+    border: none;
+}
+
+#footer .input button {
+    width: 25%;
+    border: none;
+    background-color: #fe5f38;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#footer .contact {
+    width: calc((100% / 4) - 30px);
+    margin: 15px 0px;
+}
+
+#footer .contact h3 {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#footer .contact i {
+    padding: 5px;
+}
+
+#footer .contact li:first-child {
+    display: flex;
+}
+
+#footer .contact li {
+    padding: 5px;
+}
+
+#footer .contact li a {
+    color: #fe5f38;
+}
+
+#footer .contact li:hover a {
+    color: #000;
+}
+
+#footer .copyright {
+    padding: 20px;
+}
+
+#footer .copyright a:hover {
+    color: #fe5f38;
 }
