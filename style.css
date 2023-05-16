@@ -9,7 +9,7 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px !important;
 }
 
 .header-top {
@@ -18,7 +18,8 @@ a {
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1200px;
+    display: block;
     margin: 0 auto;
     display: flex;
 }
@@ -27,27 +28,30 @@ a {
     justify-content: space-between;
 }
 
-.language {
-    width: 25%;
+.header-top-left {
     display: flex;
 }
 
-.language li {
-    font-size: 20px;
-    position: relative;
-
+.language {
+    width: 50%;
+    display: flex;   
 }
 
 .language > li:hover > ul {
     display: block;
 }
 
+.dropdown-show {
+    height: 40px;
+    padding: 0px 20px;
+    border-left: 1px solid #ccc;
+    position: relative;
+}
 
-.dropdown-show ul {
+.dropdown-show .open-dropdown {
     display: none;
     position:absolute;
     top: 40px;
-    left: 15px;
     padding: 5px;
     border-top: 2px solid #fe5f38;
     background-color: #fff;
@@ -67,6 +71,8 @@ a {
 .dropdown-show img {
     padding: 5px;
     margin-right: 5px;
+    position: relative;
+    top: 5px;
 }
 
 .dropdown-show ul li:hover {
@@ -80,6 +86,7 @@ a {
 
 .social-logo ul  {
     display: flex;
+    height: 40px;
 }
 
 .social-logo ul li {
@@ -118,8 +125,13 @@ a {
 
 .link a {
     color: #fff;
-    margin: 10px;
-    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+
+.link i {
+    padding: 5px;
 }
 
 .link a:hover {
@@ -139,6 +151,10 @@ a {
     width: 40%;
 }
 
+.logo img {
+    margin-top: 15px;
+}
+
 .header-middle > .container > .content-right {
     display: flex;
 }
@@ -146,7 +162,7 @@ a {
 .info {
     text-align: right;
     border-right: 1px solid #ccc;
-    padding-right: 10px;
+    padding: 30px 40px;
 }
 
 .info .phone {
@@ -164,9 +180,10 @@ a {
 
 .cart {
     position: relative;
-    /* text-align: right; */
-    padding: 15px;
+    
+    padding: 30px 0px 0px 20px;
 }
+
 
 .cart > a {
     display: block;
@@ -276,13 +293,38 @@ a {
     justify-content: space-between;
 }
 
+.search-bar {
+    position: relative;
+    top: 20px;
+    border: 1px solid #ccc;
+    height: 30px;
+}
 
+.search-bar i {
+    padding: 5px;
+    position: relative;
+    top: 3px;
+}
+
+.search-bar i:hover {
+    color: #fe5f38
+}
+
+.search-bar input {
+    margin-left: 10px;
+    border: none;
+}
 
 .container > .menu {
     display: flex;
     width: 70%;
-    justify-content: space-between;
     position: relative;
+}
+
+.menu > li {
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .container > ul.menu li:hover > a {
@@ -295,8 +337,10 @@ a {
 
 .sub-menu {
     display: flex;
-    
+}
 
+.sub-menu li {
+    padding: 5px;
 }
 
 .page  .men >.sub-menu > li > a {
@@ -314,9 +358,12 @@ a {
 .home {
     position: absolute;
     display: none;
-    width: 100px;
-    top: 25px;
+    width: 120px;
+    top: 70px;
     left: 10px;
+    z-index: 100;
+    background-color: #fff;
+
 }
 
 .home li {
@@ -331,10 +378,12 @@ a {
 
 .page {
     position: absolute;
-    top: 35px;
+    top: 70px;
     left: 90px;
-    border-top: 1px solid #fe5f38;
     display: none;
+    z-index: 100;
+    background-color: #fff;
+
 }
 
 .menu > li:hover div.men {
@@ -343,10 +392,12 @@ a {
 
 .men {
     position: absolute;
-    top: 35px;
+    top: 70px;
     left: 180px;
-    border-top: 1px solid #fe5f38;
     display: none;
+    z-index: 100;
+    background-color: #fff;
+
 }
 
 /* Slider */
@@ -474,6 +525,10 @@ a {
     margin: 10px;
 }
 
+.product img {
+    width: 100%;
+}
+
 .container .product > span {
     background-color: #fe5f38;
     padding: 5px;
@@ -488,7 +543,7 @@ a {
 .container .product span.lable-discount {
     position: absolute;
     top: 10px;
-    right: 30px;
+    right: 10px;
 }
 
 .shop-btn {
@@ -515,10 +570,14 @@ a {
     color: #fe5f38;
 }
 
+#sale-trend {
+    padding-top: 80px;
+}
+
 .product .text-content h3 {
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .product .text-content .old-price {
