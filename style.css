@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: lato;
+}
+
 ul {
     list-style-type: none;
 }
@@ -50,12 +54,13 @@ a {
 
 .dropdown-show .open-dropdown {
     display: none;
-    position:absolute;
+    position: absolute;
     top: 40px;
+    left: 0px;
     padding: 5px;
     border-top: 2px solid #fe5f38;
     background-color: #fff;
-    width: 110px;
+    width: 88px;
 }
 
 .dropdown-show > a {
@@ -296,7 +301,7 @@ a {
 .search-bar {
     position: relative;
     top: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #e5e5e5;
     height: 30px;
 }
 
@@ -325,6 +330,10 @@ a {
     margin: 20px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.menu > li > a {
+    color: #222;
 }
 
 .container > ul.menu li:hover > a {
