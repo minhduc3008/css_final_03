@@ -1,777 +1,848 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css Final 03</title>
-    <link rel="stylesheet" href="icon/fontawesome-free-6.4.0-web/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="icon/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-    <!-- Header top begin -->
-        <div class="header-top">
-            <div class="container">
-                <ul class="language">
-                    <li class="dropdown-show">
-                        <a href="#"><img src="img/icon_1.webp" alt="">English <i class="fa fa-angle-down"></i></a>
-                        <ul class="open-dropdown">
-                            <li><a href="#"><img src="img/icon_1.webp" alt=""> English</a></li>                 
-                            <li><a href="#"><img src="img/icon_2.webp" alt=""> Français</a></li>                       
-                        </ul>
-                    </li>
-
-                    <li class="dropdown-show">
-                        <a href="#">USD $ <i class="fa fa-angle-down"></i></a>
-                        <ul class="open-dropdown">
-                            <li><a href="#"> Euro €</a></li>
-                            <li><a href="#"> USD $</a></li>
-                        </ul>
-                    </li>
+      <!-- Header top begin -->
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-left">
+            <ul class="language">
+              <li class="dropdown-show">
+                <a href="#"
+                  ><img src="img/icon_1.webp" alt="" />English
+                  <i class="fa fa-angle-down"></i
+                ></a>
+                <ul class="open-dropdown">
+                  <li>
+                    <a href="#"><img src="img/icon_1.webp" alt="" /> English</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/icon_2.webp" alt="" /> Français</a
+                    >
+                  </li>
                 </ul>
+              </li>
 
-                <div class="social-logo">
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
+              <li class="dropdown-show">
+                <a href="#">USD $ <i class="fa fa-angle-down"></i></a>
+                <ul class="open-dropdown">
+                  <li><a href="#"> Euro €</a></li>
+                  <li><a href="#"> USD $</a></li>
+                </ul>
+              </li>
+            </ul>
 
-                <div class="link">
-                    <ul>
-                        <li><a href="#"><i class="fa-solid fa-user"></i> My account</a></li>
-                        <li><a href="#"><i class="fa-solid fa-circle-check"></i> Checkout</a></li>
-                        <li><a href="#"><i class="fa-solid fa-key"></i> Sign in</a></li>
-                    </ul>
-                </div>
-            </div>                   
-        </div>
-    <!-- Header top end -->
-
-    <!-- Header middle begin -->
-        <div class="header-middle">
-            <div class="container">
-                <div class="logo">
-                    <a href="#"><img src="img/logo.webp" alt=""></a>
-                </div>
-
-                <div class="content-right">
-                    <div class="info">
-                        <div class="phone"><i class="fa-solid fa-phone"></i>
-                            +888 1234 56780 - +555 5678 12340
-                        </div>
-                        <p class="time">Mon-Fri: 8:30am - 7:00pm; Sat-Sun: 9:30am - 4:30pm</p>
-                    </div>
-    
-                    <div class="cart">
-                        <a href="#">
-                            <i class="fa-solid fa-bag-shopping bag"></i>
-                            <span>2</span>
-                        </a>
-    
-                        <div class="cart-wrap">
-                            <ul>
-                                <li>
-                                    <div class="img-content">
-                                        <div class="content-left">
-                                            <a href="#"><img src="img/cart_1.webp" alt="">
-                                                <span>1x</span>
-                                            </a>
-                                        </div>
-                                        <div class="content-right">
-                                            <a href="#"><h3>Imperdiet Vel</h3></a>
-                                            <div class="price-box">
-                                                <span>$323.84</span>
-                                            </div>
-                                        </div>
-                                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
-    
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="img-content">
-                                        <div class="content-left">
-                                            <a href="#"><img src="img/cart_2.webp" alt="">
-                                                <span>1x</span>
-                                            </a>
-                                        </div>
-                                        <div class="content-right">
-                                            <a href="#"><h3>Imperdiet Nunc</h3></a>
-                                            <div class="price-box">
-                                                <span>$323.84</span>
-                                            </div>
-                                        </div>
-                                        <a href="#"><i class="fa-solid fa-xmark"></i></a>
-    
-                                    </div>
-                                </li>
-                            </ul>
-    
-                            <div class="price_content">
-                                <p>Subtotal <span>$647.68</span></p>
-                                <p>Shipping <span>$7.00</span></p>
-                                <p>Taxes <span>$0.00</span></p>
-                                <p>Total <span>$654.68</span></p>
-                            </div>
-                            <div class="cart-checkout">
-                                <button>Checkout</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
+            <div class="social-logo">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
             </div>
+          </div>
+
+          <div class="link">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-user"></i> My account</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-circle-check"></i> Checkout</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-key"></i> Sign in</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    <!-- Header middle end -->
+      </div>
+      <!-- Header top end -->
 
-    <!-- Header bottom begin -->
-        <div class="header-bottom">
-        <div class="container"> 
-        <!-- Main menu begin --> 
-        <ul class="menu">
-            <li>
-                <a href="index.html">Home <i class="fa fa-angle-down"></i></a>
-                <ul class="home sub-menu" >
-                    <li><a href="#">Home page 1</a></li>
-                    <li><a href="#">Home page 2</a></li>
-                    <li><a href="#">Home page 3</a></li>
-                    <li><a href="#">Home page 4</a></li>
+      <!-- Header middle begin -->
+      <div class="header-middle">
+        <div class="container">
+          <div class="logo">
+            <a href="#"><img src="img/logo.webp" alt="" /></a>
+          </div>
+
+          <div class="content-right">
+            <div class="info">
+              <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                +888 1234 56780 - +555 5678 12340
+              </div>
+              <p class="time">
+                Mon-Fri: 8:30am - 7:00pm; Sat-Sun: 9:30am - 4:30pm
+              </p>
+            </div>
+
+            <div class="cart">
+              <a href="#">
+                <i class="fa-solid fa-bag-shopping bag"></i>
+                <span>2</span>
+              </a>
+
+              <div class="cart-wrap">
+                <ul>
+                  <li>
+                    <div class="img-content">
+                      <div class="content-left">
+                        <a href="#"
+                          ><img src="img/cart_1.webp" alt="" />
+                          <span>1x</span>
+                        </a>
+                      </div>
+                      <div class="content-right">
+                        <a href="#"><h3>Imperdiet Vel</h3></a>
+                        <div class="price-box">
+                          <span>$323.84</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="img-content">
+                      <div class="content-left">
+                        <a href="#"
+                          ><img src="img/cart_2.webp" alt="" />
+                          <span>1x</span>
+                        </a>
+                      </div>
+                      <div class="content-right">
+                        <a href="#"><h3>Imperdiet Nunc</h3></a>
+                        <div class="price-box">
+                          <span>$323.84</span>
+                        </div>
+                      </div>
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                  </li>
                 </ul>
-            </li>
 
-            <li>
-                <a href="#">Page <i class="fa fa-angle-down"></i></a>
-                <div class="page">
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="#">Column One </a>
-                            <ul class="sub-menu-2">
-                                <li><a href="#">Shop Left</a></li>
-                                <li><a href="#">Shop Right</a></li>
-                                <li><a href="#">Shop Full Width</a></li>
-                                <li><a href="#">Shop list layout</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="#">Column Two</a>
-                            <ul class="sub-menu-2">
-                                <li><a href="#">Blog Left</a></li>
-                                <li><a href="#">Blog Right</a></li>
-                                <li><a href="#">Blog Full Width</a></li>
-                                <li><a href="#">Blog Details</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="#">Column Three</a>
-                            <ul class="sub-menu-2">
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Login &amp; Register</a></li>
-                                <li><a href="#">Error 404</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="#">Column Four</a>
-                            <ul class="sub-menu-2">
-                                <li><a href="#">Wish List</a></li>
-                                <li><a href="#">Single product</a></li>
-                                <li><a href="#">Cart Page</a></li>
-                                <li><a href="#">Check Out Page</a></li>
-                            </ul>
-                        </li> 
-                </ul>
+                <div class="price_content">
+                  <p>Subtotal <span>$647.68</span></p>
+                  <p>Shipping <span>$7.00</span></p>
+                  <p>Taxes <span>$0.00</span></p>
+                  <p>Total <span>$654.68</span></p>
                 </div>
-                
+                <div class="cart-checkout">
+                  <button>Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header middle end -->
+
+      <!-- Header bottom begin -->
+      <div class="header-bottom">
+        <div class="container">
+          <!-- Main menu begin -->
+          <ul class="menu">
+            <li>
+              <a href="index.html">Home <i class="fa fa-angle-down"></i></a>
+              <ul class="home sub-menu">
+                <li><a href="#">Home page 1</a></li>
+                <li><a href="#">Home page 2</a></li>
+                <li><a href="#">Home page 3</a></li>
+                <li><a href="#">Home page 4</a></li>
+              </ul>
             </li>
 
             <li>
-                <a href="#">Men <i class="fa fa-angle-down"></i></a>
-                <div class="men">
-                    <ul class="sub-menu">
-                    <li><a href="#">Accessories </a>
-                        <ul class="sub-menu-2">
-                            <li><a href="#">Hoodies</a></li>
-                            <li><a href="#">Jackets & Coats</a></li>
-                            <li><a href="#">Sweaters</a></li>
-                        </ul>
-                    </li>
+              <a href="#">Page <i class="fa fa-angle-down"></i></a>
+              <div class="page">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Column One </a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">Shop Left</a></li>
+                      <li><a href="#">Shop Right</a></li>
+                      <li><a href="#">Shop Full Width</a></li>
+                      <li><a href="#">Shop list layout</a></li>
+                    </ul>
+                  </li>
 
-                    <li><a href="#">Jewellery</a>
-                        <ul class="sub-menu-2">
-                            <li><a href="#">Skirts</a></li>
-                            <li><a href="#">Dress Pants</a></li>
-                            <li><a href="#">Tops & Tees</a></li>
-                        </ul>
-                    </li>
+                  <li>
+                    <a href="#">Column Two</a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">Blog Left</a></li>
+                      <li><a href="#">Blog Right</a></li>
+                      <li><a href="#">Blog Full Width</a></li>
+                      <li><a href="#">Blog Details</a></li>
+                    </ul>
+                  </li>
 
-                    <li><a href="#">Scarves</a>
-                        <ul class="sub-menu-2">
-                            <li><a href="#">Joggers</a></li>
-                            <li><a href="#">Lifestyle</a></li>
-                            <li><a href="#">Flat sandals</a></li>
-                        </ul>
-                    </li>
+                  <li>
+                    <a href="#">Column Three</a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">My Account</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Login &amp; Register</a></li>
+                      <li><a href="#">Error 404</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Column Four</a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">Wish List</a></li>
+                      <li><a href="#">Single product</a></li>
+                      <li><a href="#">Cart Page</a></li>
+                      <li><a href="#">Check Out Page</a></li>
+                    </ul>
+                  </li>
                 </ul>
-                </div>
-                
+              </div>
             </li>
-                        
+
+            <li>
+              <a href="#">Men <i class="fa fa-angle-down"></i></a>
+              <div class="men">
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Accessories </a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">Hoodies</a></li>
+                      <li><a href="#">Jackets & Coats</a></li>
+                      <li><a href="#">Sweaters</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Jewellery</a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">Skirts</a></li>
+                      <li><a href="#">Dress Pants</a></li>
+                      <li><a href="#">Tops & Tees</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Scarves</a>
+                    <ul class="sub-menu-2">
+                      <li><a href="#">Joggers</a></li>
+                      <li><a href="#">Lifestyle</a></li>
+                      <li><a href="#">Flat sandals</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
             <li><a href="#">Women</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="search-bar">
-            <input type="text" placeholder="Search our catalog">
+          </ul>
+          <div class="search-bar">
+            <input type="text" placeholder="Search our catalog" />
             <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
-            
-        </div>
-        </div>
-        
+      </div>
     </header>
 
     <section id="slider">
-            <div class="slider-content">
-                <div class="title">
-                    <h1 class="title-1">Women's Fashion</h1>
-                    <h2 class="title-2">Flat 50-80% off</h2>
-                    <ul class="title-3">
-                        <li>Clothing</li>
-                        <li>Footwear</li>
-                        <li>Accessories</li>
-                    </ul>
-                <button class="shop-bnt">Shop now!</button>
-                </div>
-                
-                <img src="img/slider_1.webp" alt="">
-            </div>
-            
-    </section>
-
-    <section class="banner">       
-            <div class="banner-left">
-                <img src="img/banner_1.webp" alt="">
-                <img src="img/banner_2.webp" alt="">
-            </div>
-
-            <div class="banner-center">
-                <img src="img/banner_3.webp" alt="">
-            </div>
-
-            <div class="banner-right">
-                <img src="img/banner_4.webp" alt="">
-                <img src="img/banner_5.webp" alt="">
-            </div>
-    </section>
-
-    <section id="sale-trend">
-        <div class="text-center">
-            <h2>sale trends</h2>
-            <small>Most Trendy Clothes</small>
-        </div>
-        <div class="container">
-            
-            <div class="product">
-                <a href="#"><img src="img/pro_1.webp" alt=""></a>
-                <span class="lable-new">New</span>
-                <span class="lable-discount">-12%</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product">
-                <a href="#"><img src="img/pro_2.webp" alt=""></a>
-                <span class="lable-new">New</span>
-                <span class="lable-discount">-12%</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet nunc</h3>
-                    <div class="price-box">
-                        <span class="old-price">$332.00</span>
-                        <span class="new-price">$313.84</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="product">
-                <a href="#"><img src="img/pro_3.webp" alt=""></a>
-                <span class="lable-new">New</span>
-                <span class="lable-discount">-12%</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>convallis sem</h3>
-                    <div class="price-box">
-                        <span class="old-price">$212.00</span>
-                        <span class="new-price">$209.00</span>
-                    </div>
-                </div>
-            </div>
-
-            
-
-            
-        </div>
-    </section>
-
-    <section id="best-seller">
-        <div class="text-center">
-            <h2>Best seller</h2>
-            <small>Most Trendy Clothes</small>
+      <div class="slider-content">
+        <div class="title">
+          <h1 class="title-1">Women's Fashion</h1>
+          <h2 class="title-2">Flat 50-80% off</h2>
+          <ul class="title-3">
+            <li>Clothing</li>
+            <li>Footwear</li>
+            <li>Accessories</li>
+          </ul>
+          <button class="shop-bnt">Shop now!</button>
         </div>
 
-        <nav>
-            <ul class="text-center">
-                <li><a href="#">shop</a></li>
-                <li><a href="#">men</a></li>
-                <li><a href="#">women</a></li>
-                <li><a href="#">accessories</a></li>
-            </ul>
-        </nav>
-        <div class="container">
-            <div class="left">
-                <div class="left-top">
-                    <div class="product">
-                <a href="#"><img src="img/pro_4.webp" alt=""></a>
-                <span class="lable-new">New</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-                </div>
-                <div class="product">
-                <a href="#"><img src="img/pro_5.webp" alt=""></a>
-                <span class="lable-new">New</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-                </div>
-                </div>
-                
-                <div class="left-bottom">
-                    <div class="product">
-                <a href="#"><img src="img/pro_7.webp" alt=""></a>
-                <span class="lable-new">New</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-                </div>
-                </div>
-                
-            </div>
-
-            <div class="right">
-                <div class="right-top">
-                    <div class="product">
-                <a href="#"><img src="img/pro_4.webp" alt=""></a>
-                <span class="lable-new">New</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-                </div>
-                </div>
-
-                <div class="right-bottom">
-                    <div class="product">
-                <a href="#"><img src="img/pro_5.webp" alt=""></a>
-                <span class="lable-new">New</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-                </div>
-                <div class="product">
-                <a href="#"><img src="img/pro_7.webp" alt=""></a>
-                <span class="lable-new">New</span>
-
-                <div class="shop-btn">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-bag-shopping"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="text-content text-center">
-                    <h3>imperdiet vel</h3>
-                    <div class="price-box">
-                        <span class="old-price">$368.00</span>
-                        <span class="new-price">$323.84</span>
-                    </div>
-                </div>
-                </div>
-                </div>
-                
-                
-            </div>
-        </div>
+        <img src="img/slider_1.png" alt="" />
+      </div>
     </section>
 
     <section class="banner">
-        <div class="content">
-        <img src="img/banner_6.webp" alt="">
+      <div class="banner-left">
+        <img src="img/banner_1.webp" alt="" />
+        <img src="img/banner_2.webp" alt="" />
+      </div>
+
+      <div class="banner-center">
+        <img src="img/banner_3.webp" alt="" />
+      </div>
+
+      <div class="banner-right">
+        <img src="img/banner_4.webp" alt="" />
+        <img src="img/banner_5.webp" alt="" />
+      </div>
+    </section>
+
+    <section id="sale-trend">
+      <div class="text-center">
+        <h2>sale trends</h2>
+        <small>Most Trendy Clothes</small>
+      </div>
+      <div class="container">
+        <div class="product">
+          <a href="#"><img src="img/pro_1.webp" alt="" /></a>
+          <span class="lable-new">New</span>
+          <span class="lable-discount">-12%</span>
+
+          <div class="shop-btn">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-bag-shopping"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="text-content text-center">
+            <h3>imperdiet vel</h3>
+            <div class="price-box">
+              <span class="old-price">$368.00</span>
+              <span class="new-price">$323.84</span>
+            </div>
+          </div>
         </div>
 
-        <div class="content">
-        <img src="img/banner_7.webp" alt="">
+        <div class="product">
+          <a href="#"><img src="img/pro_2.webp" alt="" /></a>
+          <span class="lable-new">New</span>
+          <span class="lable-discount">-12%</span>
+
+          <div class="shop-btn">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-bag-shopping"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="text-content text-center">
+            <h3>imperdiet nunc</h3>
+            <div class="price-box">
+              <span class="old-price">$332.00</span>
+              <span class="new-price">$313.84</span>
+            </div>
+          </div>
         </div>
 
-        <div class="content">
-        <img src="img/banner_8.webp" alt="">
+        <div class="product">
+          <a href="#"><img src="img/pro_3.webp" alt="" /></a>
+          <span class="lable-new">New</span>
+          <span class="lable-discount">-12%</span>
+
+          <div class="shop-btn">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-bag-shopping"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="text-content text-center">
+            <h3>convallis sem</h3>
+            <div class="price-box">
+              <span class="old-price">$212.00</span>
+              <span class="new-price">$209.00</span>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section id="best-seller">
+      <div class="text-center">
+        <h2>Best seller</h2>
+        <small>Most Trendy Clothes</small>
+      </div>
+
+      <nav>
+        <ul class="text-center">
+          <li><a href="#">shop</a></li>
+          <li><a href="#">men</a></li>
+          <li><a href="#">women</a></li>
+          <li><a href="#">accessories</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="left">
+          <div class="left-top">
+            <div class="product">
+              <a href="#"><img src="img/pro_4.webp" alt="" /></a>
+              <span class="lable-new">New</span>
+
+              <div class="shop-btn">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="text-content text-center">
+                <h3>imperdiet vel</h3>
+                <div class="price-box">
+                  <span class="old-price">$368.00</span>
+                  <span class="new-price">$323.84</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <a href="#"><img src="img/pro_5.webp" alt="" /></a>
+              <span class="lable-new">New</span>
+
+              <div class="shop-btn">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="text-content text-center">
+                <h3>imperdiet vel</h3>
+                <div class="price-box">
+                  <span class="old-price">$368.00</span>
+                  <span class="new-price">$323.84</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="left-bottom">
+            <div class="product">
+              <a href="#"><img src="img/pro_7.webp" alt="" /></a>
+              <span class="lable-new">New</span>
+
+              <div class="shop-btn">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="text-content text-center">
+                <h3>imperdiet vel</h3>
+                <div class="price-box">
+                  <span class="old-price">$368.00</span>
+                  <span class="new-price">$323.84</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="right-top">
+            <div class="product">
+              <a href="#"><img src="img/pro_4.webp" alt="" /></a>
+              <span class="lable-new">New</span>
+
+              <div class="shop-btn">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="text-content text-center">
+                <h3>imperdiet vel</h3>
+                <div class="price-box">
+                  <span class="old-price">$368.00</span>
+                  <span class="new-price">$323.84</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-bottom">
+            <div class="product">
+              <a href="#"><img src="img/pro_5.webp" alt="" /></a>
+              <span class="lable-new">New</span>
+
+              <div class="shop-btn">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="text-content text-center">
+                <h3>imperdiet vel</h3>
+                <div class="price-box">
+                  <span class="old-price">$368.00</span>
+                  <span class="new-price">$323.84</span>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <a href="#"><img src="img/pro_7.webp" alt="" /></a>
+              <span class="lable-new">New</span>
+
+              <div class="shop-btn">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-clipboard-list"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="text-content text-center">
+                <h3>imperdiet vel</h3>
+                <div class="price-box">
+                  <span class="old-price">$368.00</span>
+                  <span class="new-price">$323.84</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="content">
+        <img src="img/banner_6.webp" alt="" />
+      </div>
+
+      <div class="content">
+        <img src="img/banner_7.webp" alt="" />
+      </div>
+
+      <div class="content">
+        <img src="img/banner_8.webp" alt="" />
+      </div>
     </section>
 
     <section id="brands">
-        <div class="content-2">
-            <a href=""><img src="img/brand_1.webp" alt=""></a>
-        </div>
-        <div class="content-2">
-            <a href=""><img src="img/brand_2.webp" alt=""></a>
-        </div>
-        <div class="content-2">
-            <a href=""><img src="img/brand_3.webp" alt=""></a>
-        </div>
-        <div class="content-2">
-            <a href=""><img src="img/brand_4.webp" alt=""></a>
-        </div>
-        <div class="content-2">
-            <a href=""><img src="img/brand_5.webp" alt=""></a>
-        </div>
+      <div class="content-2">
+        <a href=""><img src="img/brand_1.webp" alt="" /></a>
+      </div>
+      <div class="content-2">
+        <a href=""><img src="img/brand_2.webp" alt="" /></a>
+      </div>
+      <div class="content-2">
+        <a href=""><img src="img/brand_3.webp" alt="" /></a>
+      </div>
+      <div class="content-2">
+        <a href=""><img src="img/brand_4.webp" alt="" /></a>
+      </div>
+      <div class="content-2">
+        <a href=""><img src="img/brand_5.webp" alt="" /></a>
+      </div>
     </section>
 
     <section id="blog">
-        <div class="container">
-            <div class="blog-left">
-                <h2>We get people saying</h2>
-                <img src="img/about_1.webp" alt="">
-                <p class="name">orando BLoom</p>
-                <p class="gmail">demo@gamil.com</p>
-                <p class="des">
-                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. 
-                    Mirum est notare quam littera gothica, quam nunc putamus parum claram.
-                </p>
-            </div>
-
-            <div class="blog-right">
-                <h2>Latest blog </h2>
-                <div class="blog-img-content">
-                    <div class="left">
-                        <img src="img/home-1.webp" alt="">
-                        <a href="#">This is Secound Post For XipBlog</a>
-                        <span>May 22, 2018</span>
-                    </div>
-
-                    <div class="right">
-                        <img src="img/home-2.webp" alt="">
-                        <a href="#">This is Secound Post For XipBlog</a>
-                        <span>Jul  9, 2018</span>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="blog-left">
+          <h2>We get people saying</h2>
+          <img src="img/about_1.webp" alt="" />
+          <p class="name">orando BLoom</p>
+          <p class="gmail">demo@gamil.com</p>
+          <p class="des">
+            Claritas est etiam processus dynamicus, qui sequitur mutationem
+            consuetudium lectorum. Mirum est notare quam littera gothica, quam
+            nunc putamus parum claram.
+          </p>
         </div>
-        
+
+        <div class="blog-right">
+          <h2>Latest blog</h2>
+          <div class="blog-img-content">
+            <div class="left">
+              <img src="img/home-1.webp" alt="" />
+              <a href="#">This is Secound Post For XipBlog</a>
+              <span>May 22, 2018</span>
+            </div>
+
+            <div class="right">
+              <img src="img/home-2.webp" alt="" />
+              <a href="#">This is Secound Post For XipBlog</a>
+              <span>Jul 9, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="featured-product">
-        <div class="container">
+      <div class="container">
+        <div class="pro-list">
+          <h3>Featured Products</h3>
 
-            <div class="pro-list">
-                    <h3>Featured Products </h3>
-                    
-                    <div class="pro-item">
-                        <img src="img/pro_1.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="pro-item">
-                        <img src="img/pro_2.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="pro-item">
-                        <img src="img/pro_3.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                    </div>
-                    </div>
-                    
+          <div class="pro-item">
+            <img src="img/pro_1.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
             </div>
-            <div class="pro-list">
-                    <h3>Featured Products </h3>
-                    
-                    <div class="pro-item">
-                        <img src="img/pro_4.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                        </div>
-                    </div>
+          </div>
 
-                    <div class="pro-item">
-                        <img src="img/pro_5.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="pro-item">
-                        <img src="img/pro_6.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                        </div>
-                    </div>
-                    
+          <div class="pro-item">
+            <img src="img/pro_2.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
             </div>
-            <div class="pro-list">
-                    <h3>Featured Products </h3>
-                    
-                    <div class="pro-item">
-                        <img src="img/pro_7.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                    </div>
-                    </div>
+          </div>
 
-                    <div class="pro-item">
-                        <img src="img/pro_8.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="pro-item">
-                        <img src="img/pro_9.webp" alt="">
-                        <div class="pro-content">
-                        <a href="#">imperdiet vel</a>
-                        <div class="price-box">
-                            <span class="old-price">$368.00</span>
-                            <span class="new-price">$323.84</span>
-                        </div>
-                    </div>
-                    </div>
-                    
+          <div class="pro-item">
+            <img src="img/pro_3.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
             </div>
-        
-           
+          </div>
         </div>
+        <div class="pro-list">
+          <h3>Featured Products</h3>
+
+          <div class="pro-item">
+            <img src="img/pro_4.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pro-item">
+            <img src="img/pro_5.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pro-item">
+            <img src="img/pro_6.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pro-list">
+          <h3>Featured Products</h3>
+
+          <div class="pro-item">
+            <img src="img/pro_7.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pro-item">
+            <img src="img/pro_8.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pro-item">
+            <img src="img/pro_9.webp" alt="" />
+            <div class="pro-content">
+              <a href="#">imperdiet vel</a>
+              <div class="price-box">
+                <span class="old-price">$368.00</span>
+                <span class="new-price">$323.84</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="footer">
-        <div class="footer-logo text-center">
-            <img src="img/logo.webp" alt="">
-            </div>
-        <div class="container">
-            
+      <div class="footer-logo text-center">
+        <img src="img/logo.webp" alt="" />
+      </div>
+      <div class="container">
         <form class="input text-center">
-            <p>Newsletter Signup</p>
-            <input type="text" placeholder="Enter your email address ...">
-            <button>Subscribe</button>
+          <p>Newsletter Signup</p>
+          <input type="text" placeholder="Enter your email address ..." />
+          <button>Subscribe</button>
         </form>
+      </div>
+
+      <div class="container footer-mid">
+        <div class="contact">
+          <h3>Contact us</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <p>
+                Raloza - Responsive Theme
+                <br />
+                No 40 Baria Sreet 133/2 NewYork City, NY, United States.
+                <br />
+                United States
+              </p>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              +555 5678 12340
+            </li>
+
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              demo@posthemes.com
+            </li>
+          </ul>
         </div>
 
-        <div class="container footer-mid">
-            <div class="contact">
-                <h3>Contact us</h3>
-                <ul>
-                    <li> 
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>
-                            Raloza - Responsive Theme
-                        <br>
-                        No 40 Baria Sreet 133/2  NewYork City, NY, United States.
-                        <br>
-                        United States
-                        </p>
-                    </li>
-                
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                        +555 5678 12340
-                    </li>
-
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>
-                        demo@posthemes.com
-                    </li>
-                </ul>
-            </div>
-
-            <div class="contact">
-                <h3>Products</h3>
-                <ul>
-                    <li><a href="#">Prices drop</a></li>
-                    <li><a href="#">New products</a> </li>
-                    <li><a href="#">Best sales</a> </li>
-                    <li><a href="#">Contact us</a> </li>
-                    <li><a href="#">Sitemap</a> </li>
-                </ul>
-            </div>
-            <div class="contact">
-                <h3>Products</h3>
-                <ul>
-                    <li><a href="#">Prices drop</a></li>
-                    <li><a href="#">New products</a> </li>
-                    <li><a href="#">Best sales</a> </li>
-                    <li><a href="#">Contact us</a> </li>
-                    <li><a href="#">Sitemap</a> </li>
-                </ul>
-            </div>
-            <div class="contact">
-                <h3>Products</h3>
-                <ul>
-                    <li><a href="#">Prices drop</a></li>
-                    <li><a href="#">New products</a> </li>
-                    <li><a href="#">Best sales</a> </li>
-                    <li><a href="#">Contact us</a> </li>
-                    <li><a href="#">Sitemap</a> </li>
-                </ul>
-            </div>
+        <div class="contact">
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#">Prices drop</a></li>
+            <li><a href="#">New products</a></li>
+            <li><a href="#">Best sales</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
         </div>
-        
-        <div class="footer-bottom text-center">
-            <div class="copyright">
-                Copyright
-                <a href="#">Ralora</a>
-                All Rights Reserved
-            </div>
-
-            <img src="img/payment.webp" alt="">
+        <div class="contact">
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#">Prices drop</a></li>
+            <li><a href="#">New products</a></li>
+            <li><a href="#">Best sales</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
         </div>
+        <div class="contact">
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#">Prices drop</a></li>
+            <li><a href="#">New products</a></li>
+            <li><a href="#">Best sales</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <div class="copyright">
+          Copyright
+          <a href="#">Ralora</a>
+          All Rights Reserved
+        </div>
+
+        <img src="img/payment.webp" alt="" />
+      </div>
     </footer>
-</body>
+  </body>
 </html>
