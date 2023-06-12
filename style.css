@@ -183,6 +183,11 @@ a {
     margin-right: 10px;
 }
 
+.info .time {
+    position: absolute;
+    top: 144px;
+}
+
 .cart {
     position: relative;
     
@@ -204,12 +209,12 @@ a {
 
 .cart > a > span {
     position: absolute;
-    top: 25px;
-    left: 0px;
+    top: 50px;
+    left: 50%;
     background-color: #fe5f38;
     border-radius: 50%;
-    font-size: 23px;
-    width: 25px;
+    font-size: 16px;
+    width: 18px;
     text-align: center;
 
 }
@@ -218,6 +223,7 @@ a {
     font-size: 40px;
     color: #000;
     line-height: 83px;
+    margin-left: 40px;
 }
 
 .cart:hover div.cart-wrap {
@@ -289,7 +295,6 @@ a {
 }
 
 .header-bottom {
-    margin-top: 20px;
     height: 40px;
     align-items: center;
 }
